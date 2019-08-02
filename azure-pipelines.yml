@@ -24,6 +24,6 @@ steps:
       # Write your PowerShell commands here.
       
       Write-Host "Hello Afzal World"
-      # Set-ExecutionPolicy AllSigned -Scope Process -Force
-      iex ((New-Object System.Net.WebClient).DownloadString('https://download.srcclr.com/ci.ps1'))
+      Set-ExecutionPolicy AllSigned -Scope Process -Force
+      # iex ((New-Object System.Net.WebClient).DownloadString('https://download.srcclr.com/ci.ps1'))
       
