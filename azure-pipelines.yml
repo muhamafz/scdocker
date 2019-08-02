@@ -31,5 +31,9 @@ steps:
       # Write your commands here
             
       echo 'Hello city'
+      curl -sSL https://www.sourceclear.com/install | bash
+      srcclr activate
+      c9fe080b-3354-4534-8a4d-d0757f97aad5
+      srcclr scan --url https://github.com/srcclr/example-ruby
       
       
