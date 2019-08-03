@@ -35,5 +35,9 @@ steps:
       #srcclr activate
       #c9fe080b-3354-4534-8a4d-d0757f97aad5
       srcclr scan --url https://github.com/muhamafz/scdocker
+- task: Docker@2
+  inputs:
+    command: 'build'
+    Dockerfile: '**/Dockerfile'
       
       
