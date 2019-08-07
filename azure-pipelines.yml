@@ -25,5 +25,11 @@ steps:
   inputs:
     command: 'build'
     Dockerfile: '**/Dockerfile'
-      
-      
+- task: Docker@2
+  inputs:
+    containerRegistry: 'localhost macbook docker registry'
+    command: 'login'
+- task: Docker@2
+  inputs:
+    containerRegistry: 'localhost macbook docker registry'
+    command: 'push'
